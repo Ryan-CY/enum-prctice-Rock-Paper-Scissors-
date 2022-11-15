@@ -13,6 +13,8 @@
 		779B84352921EC610097DA14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779B84332921EC610097DA14 /* Main.storyboard */; };
 		779B84372921EC610097DA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779B84362921EC610097DA14 /* Assets.xcassets */; };
 		779B843A2921EC610097DA14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779B84382921EC610097DA14 /* LaunchScreen.storyboard */; };
+		779B8442292207420097DA14 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B8441292207420097DA14 /* Sign.swift */; };
+		779B8444292207530097DA14 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B8443292207530097DA14 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		779B84362921EC610097DA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		779B84392921EC610097DA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		779B843B2921EC610097DA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779B8441292207420097DA14 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		779B8443292207530097DA14 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				779B842F2921EC610097DA14 /* SceneDelegate.swift */,
 				779B84312921EC610097DA14 /* ViewController.swift */,
 				779B84332921EC610097DA14 /* Main.storyboard */,
+				779B8441292207420097DA14 /* Sign.swift */,
+				779B8443292207530097DA14 /* GameState.swift */,
 				779B84362921EC610097DA14 /* Assets.xcassets */,
 				779B84382921EC610097DA14 /* LaunchScreen.storyboard */,
 				779B843B2921EC610097DA14 /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				779B84322921EC610097DA14 /* ViewController.swift in Sources */,
 				779B842E2921EC610097DA14 /* AppDelegate.swift in Sources */,
+				779B8444292207530097DA14 /* GameState.swift in Sources */,
+				779B8442292207420097DA14 /* Sign.swift in Sources */,
 				779B84302921EC610097DA14 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
